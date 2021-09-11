@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content
+{
+    position: absolute;
+    left: 0px;
+    float: right;
+    display: block;
+    margin-top: 5%;
+    margin-left: 0px;
+    border-right-color: black;
+}
+.but
+{
+    position: relative;
+    top: 250px;
+    height: 50px;
+    width: 350px;
+    margin: 10px auto;
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 10px;
+    display : flex;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    background: rgb(36, 99, 216);
+    text-align: center;
+    font-size: 25px;
+    
+}
+.tst {
+    position: relative;
+    left: 750px;
+    top: 350px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.input-field-parent
+{
+    position:sticky;
+    margin: auto;
+    margin-top: 5%;
+    margin-right: 10%;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow: rgb(228, 224, 224) 1px 1px 1px 2px ;
+    height: 500px;
+    width: 400px;
+    vertical-align: middle;
+    justify-content: right;
+    align-content: center;
+    z-index: 1;
+    
+}
+.input-field
+{
+    width: 280px;
+    position: relative;
+    top: 200px;
+    margin: 30px auto;
+    font-size: 25px;
+    padding: 10px;
+    display : flex; 
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 2;
+    /* align-self: center; */
+    /* margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto; */
+}
+.search-parent
+{
+    background-color: rgb(245, 244, 244);
+    padding: 10px;
+    box-shadow: rgb(228, 224, 224) 1px 1px 4px 5px ;
+    
+}
+.input-field-search
+{
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right:auto;
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+    
+    padding: 10px; 
+    width: 100%;
+    height: 40px;
+    border-width: 0.5px;
+    border-radius: 5px;
+    border-style: solid;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    /* align-self: center; */
+    /* margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto; */
+}
+.enter
+{
+    border: 5px;
+    border-color: black;
+    box-align: center;
+    text-align: center;
+    background-color: rgb(226, 223, 213);
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    box-shadow: black 20px;
+}
+.sidebar{
+    height: 100vh;
+    width:  17rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: antiquewhite;
+}
+
+div.col-1
+{height: 50cm;
+ width: 30cm;
+ background-color: gray;
+}
+
+.content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    background-color: green;
+}
+
+/* .nav-item {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.4rem;
+    list-style: none;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    box-shadow: 4px 3px 8px 1px #969696;
+} */
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.profile-block {
+    width: 100%;
+    height: 8rem;
+    background-color: red;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+}
+
+.link-icon {
+    padding: .8rem;
+    margin: .8rem;
+    background-color: rgb(180, 197, 197);
+    border-radius: .6rem;
+}
+.footer
+{
+    
+    position: absolute;
+
+    bottom: 0;
+    display: flex; 
+    height: 10vh;
+    width: 100%;
+    border-top-color: rgb(27, 3, 3);
+    border-top-width:10px ;
+    box-shadow: rgb(228, 224, 224) 1px 1px 4px 5px ;   
+   
+}
